@@ -19,7 +19,6 @@ class _QuestionScreenState extends State<QuestionsScreen> {
     widget.onSelectedAnswer(selectedAnswer);
     setState(() {
       currentQuestionIndex++;
-      //add the answer picked
     });
   }
 
