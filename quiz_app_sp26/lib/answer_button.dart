@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class AnswerButton extends StatelessWidget {
+class AnswerButton extends StatelessWidget{
   const AnswerButton(
     {
       required this.answerText,
@@ -13,19 +13,21 @@ class AnswerButton extends StatelessWidget {
   final void Function() onTap;
 
   @override
-  Widget build(context){
+  Widget build(context) {
     return
     ElevatedButton(
-      onPressed: onTap,
-      style: ElevatedButton.styleFrom(
-        padding: const EdgeInsets.symmetric(
-          vertical: 10,
-          horizontal: 25,
-        ), 
-        backgroundColor: Colors.black,
-        foregroundColor: Colors.white
+    onPressed: onTap,
+    style: ElevatedButton.styleFrom(
+      padding: const EdgeInsets.symmetric(
+        vertical: 10,
+        horizontal: 40,
       ),
-      child: Text(answerText),
+      backgroundColor: const Color.fromARGB(255, 37, 9, 92),
+      foregroundColor: const Color.fromARGB(255, 253, 247, 255)
+    ),
+    child: Text(answerText,
+    textAlign: TextAlign.center,
+    ),
     );
   }
 }

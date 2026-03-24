@@ -4,8 +4,8 @@ const questions = [
   QuizQuestion(
     'Which band released the album Fever You Cant Sweat Out?',
     [
-      'The Used',
       'Panic! At the Disco', //Correct Answer
+      'The Used',
       'Panchiko',
       'Fall Out Boy',
       'Paramore'
@@ -14,18 +14,18 @@ const questions = [
   QuizQuestion(
     'Which band is commonly known as the originator of the emo sub-genre?',
     [
+      'Rites of Spring', //Correct Answer
       'American Football',
       'My Chemical Romance',
-      'Rites of Spring', //Correct Answer
       'Taking Back Sunday',
-      'Green Day'
+      'Green Day' 
     ],
   ),
   QuizQuestion(
     'Which band was brought back to life back by anonymous internet users from the website 4chan?',
     [
-      'Rites of Spring',
       'Panchiko', //Correct Answer
+      'Rites of Spring',
       'Pierce the Veil',
       'Sunny Day Real Estate',
       'Deftones'
@@ -44,9 +44,9 @@ const questions = [
   QuizQuestion(
     'Which band was created from the September 11th terror attacks on the world trade center in New York City?',
     [
+      'My Chemical Romance', //Correct Answer
       'Green Day',
       'The Used',
-      'My Chemical Romance', //Correct Answer
       'Taking Back Sunday',
       'Deftones'
     ],
